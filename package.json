@@ -1,0 +1,32 @@
+{
+  "name": "puppeteer-recaptcha-solver-using-clicks",
+  "description": "description",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2captcha/puppeteer-recaptcha-solver-using-clicks.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "2captcha",
+  "license": "MIT",
+  "keywords": [
+    "recaptcha",
+    "captcha",
+    "2captcha",
+    "grid",
+    "clicks",
+    "coordinates",
+    "bypass",
+    "solving",
+    "javascript",
+    "nodejs",
+    "puppeteer"
+  ],
+  "dependencies": {
+    "@2captcha/captcha-solver": "^1.2.0",
+    "puppeteer": "^23.5.3"
+  }
+}
