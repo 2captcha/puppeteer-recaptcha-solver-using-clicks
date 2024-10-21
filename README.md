@@ -2,9 +2,9 @@
 
 This project shows how to automates [reCAPTCHA bypass] with image challenges (3x3 and 4x4) using the [2Captcha] service and [Puppeteer] lib. The script programmatically interacts with reCAPTCHA, retrieves data for solving, sends it to  [2Captcha] for processing, and then clicks on the captcha using the provided solution.
 
-![Demonstration how to solve recaptcha using clicks](<./media/bypass_recaptcha_v2.gif>)
+If you are using Python, then we also have a similar example for Python + Selenium, the example is located in the repository [reCAPTCHA Solver Using 2Captcha and Selenium].
 
-<!-- If you are using Python, then we also have a similar example for Python + Selenium, the example is located in the repository [reCAPTCHA Solver Using 2Captcha and Selenium]. -->
+![Demonstration how to solve recaptcha using clicks](<./media/bypass_recaptcha_v2.gif>)
 
 ## Usage
 
@@ -87,5 +87,6 @@ This approach has its own minuses, the minuses include:
 [2captcha account]: https://2captcha.com/enterpage
 [reCAPTCHA bypass]: https://2captcha.com/p/bypass-recaptcha
 [Grid]: https://2captcha.com/2captcha-api#grid
+[reCAPTCHA Solver Using 2Captcha and Selenium]: https://github.com/2captcha/selenium-recaptcha-solver-using-grid
 [Puppeteer]: https://pptr.dev/
 [reCAPTCHA Solver Using 2Captcha and Selenium]: https://github.com/2captcha/recaptcha-solver-using-grid
