@@ -1,6 +1,7 @@
 # Puppeteer reCAPTCHA V2 Solver Using Clicks
 
-This repository demonstrates how to automate image-based [reCAPTCHA bypass] challenges (3x3 or 4x4 grids) using [Puppeteer] and the [2Captcha] service. The script programmatically interacts with reCAPTCHA, extracts the challenge, submits it to 2Captcha for processing, and then simulates human-like clicking on the solution provided.
+This repository demonstrates how to automate image-based [reCAPTCHA bypass] challenges (3x3 or 4x4 grids) using the [reCAPTCHA solver] and Puppeteer lib
+using [Puppeteer] and the [2Captcha] service. The script programmatically interacts with reCAPTCHA, extracts the challenge, submits it to 2Captcha (captcha solver) for processing, and then simulates human-like clicking on the solution provided.
 
 ![Demonstration how to solve recaptcha using clicks](<./media/bypass_recaptcha_v2.gif>)
 
@@ -83,7 +84,7 @@ Using this click-through approach is ideal in cases where bypassing reCAPTCHA us
 - **Blocking by reCAPTCHA**: If too many attempts are made from a single IP, reCAPTCHA might temporarily block requests. In such cases, changing the IP or waiting a few minutes might help.  When you encounter a temporary ban from reCAPTCHA, you will receive the following message: `Try again later. Your computer or network may be sending automated queries. To protect our users, we can't process your request right now...`
 
 ![reCAPTCHA DDoS Warning](./media/recaptcha_dos_message.jpg)
-<figcaption style="text-align: center;">Blocking from reCAPTCHCA</figcaption>
+<figcaption style="text-align: center;">Blocking from reCAPTCHA</figcaption>
 
 ## Planned Features
 - Automatic image refresh handling for updated captchas.
@@ -100,6 +101,7 @@ Using this click-through approach is ideal in cases where bypassing reCAPTCHA us
 
 <!-- Shared links -->
 [2Captcha]: https://2captcha.com/
+[reCAPTCHA solver]: https://2captcha.com/
 [2captcha account]: https://2captcha.com/enterpage
 [reCAPTCHA bypass]: https://2captcha.com/p/bypass-recaptcha
 [Grid]: https://2captcha.com/2captcha-api#grid
