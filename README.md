@@ -108,6 +108,6 @@ To change the IP address, you can use a residential [proxy service].
 [2captcha account]: https://2captcha.com/enterpage
 [reCAPTCHA bypass]: https://2captcha.com/p/bypass-recaptcha
 [Grid]: https://2captcha.com/2captcha-api#grid
-[residential proxy service]: https://2captcha.com/proxy/residential-proxies
+[proxy service]: https://2captcha.com/proxy/residential-proxies
 [reCAPTCHA Solver Using 2Captcha and Selenium]: https://github.com/2captcha/selenium-recaptcha-solver-using-grid
 [Puppeteer]: https://pptr.dev/
