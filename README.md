@@ -1,7 +1,7 @@
 # Puppeteer reCAPTCHA V2 Solver Using Clicks
 
 This repository demonstrates how to automate image-based [reCAPTCHA bypass] challenges (3x3 or 4x4 grids) using the [reCAPTCHA solver] and Puppeteer lib
-using [Puppeteer] and the [2Captcha] service. The script programmatically interacts with reCAPTCHA, extracts the challenge, submits it to 2Captcha (captcha solver) for processing, and then simulates human-like clicking on the solution provided.
+using [Puppeteer] and the [2Captcha] service. The script programmatically interacts with reCAPTCHA, extracts the challenge, submits it to 2Captcha ([captcha solver]) for processing, and then simulates human-like clicking on the solution provided.
 
 ![Demonstration how to solve recaptcha using clicks](<./media/bypass_recaptcha_v2.gif>)
 
@@ -102,6 +102,7 @@ Using this click-through approach is ideal in cases where bypassing reCAPTCHA us
 <!-- Shared links -->
 [2Captcha]: https://2captcha.com/
 [reCAPTCHA solver]: https://2captcha.com/
+[captcha solver]: https://2captcha.com
 [2captcha account]: https://2captcha.com/enterpage
 [reCAPTCHA bypass]: https://2captcha.com/p/bypass-recaptcha
 [Grid]: https://2captcha.com/2captcha-api#grid
