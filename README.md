@@ -86,6 +86,8 @@ Using this click-through approach is ideal in cases where bypassing reCAPTCHA us
 ![reCAPTCHA DDoS Warning](./media/recaptcha_dos_message.jpg)
 <figcaption style="text-align: center;">Blocking from reCAPTCHA</figcaption>
 
+To change the IP address, you can use a residential [proxy service].
+
 ## Planned Features
 - Automatic image refresh handling for updated captchas.
 - Use CSS selectors instead of absolute coordinates for more reliable clicking.
@@ -106,5 +108,6 @@ Using this click-through approach is ideal in cases where bypassing reCAPTCHA us
 [2captcha account]: https://2captcha.com/enterpage
 [reCAPTCHA bypass]: https://2captcha.com/p/bypass-recaptcha
 [Grid]: https://2captcha.com/2captcha-api#grid
+[residential proxy service]: https://2captcha.com/proxy/residential-proxies
 [reCAPTCHA Solver Using 2Captcha and Selenium]: https://github.com/2captcha/selenium-recaptcha-solver-using-grid
 [Puppeteer]: https://pptr.dev/
