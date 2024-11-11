@@ -4,7 +4,7 @@ const { clickRecaptchaVerifyButton } = require("./utils/clickRecaptchaVerifyButt
 const { isRecaptchaPassed } = require('./utils/isRecaptchaPassed');
 const { initCaptchaParamsExtractor } = require('./utils/initCaptchaParamsExtractor')
 const TwoCaptcha = require("@2captcha/captcha-solver");
-const apikey = process.env.APIKEY;
+const apikey = process.env.APIKEY; // Get the API key for the 2Captcha service from environment variables. You can set the `APIKEY` variable manually in this line.
 const solver = new TwoCaptcha.Solver(apikey, 500);
 const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
 

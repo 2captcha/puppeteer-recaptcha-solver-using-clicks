@@ -30,6 +30,8 @@ To use the script, you'll need to configure your [2Captcha] API key. Set the `AP
 export APIKEY=your_api_key
 ```
 
+>Alternatively, you can set the `APIKEY` value directly in the code. To do this, modify the API key value in the following file: [`captchaSolver.js`, line 7]. Locate the line that assigns the API key and replace its current value with your actual API key. This approach is useful for quick testing or if environment variables aren’t available. However, for production environments, it’s recommended to use environment variables for better security.
+
 You can obtain your API key from your [2Captcha account](https://2captcha.com/enterpage).
 
 ## How It Works
@@ -111,3 +113,4 @@ To change the IP address, you can use a residential [proxy service].
 [proxy service]: https://2captcha.com/proxy/residential-proxies
 [reCAPTCHA Solver Using 2Captcha and Selenium]: https://github.com/2captcha/selenium-recaptcha-solver-using-grid
 [Puppeteer]: https://pptr.dev/
+[`captchaSolver.js`, line 7]: ./captchaSolver.js#L7
