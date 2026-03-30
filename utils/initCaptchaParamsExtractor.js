@@ -54,9 +54,8 @@ const initCaptchaParamsExtractor = async function (frame) {
               { x: (ctx.canvas.width / 3) * 2, y: (ctx.canvas.height / 3) * 2 },
             ];
             updatedTiles.forEach((t) => {
-              const ind =
-                t.parentElement.parentElement.parentElement.tabIndex - 3;
-              ctx.drawImage(t, pos[ind - 1].x, pos[ind - 1].y);
+              const ind = t.parentElement.parentElement.parentElement.id;
+              ctx.drawImage(t, pos[ind].x, pos[ind].y);
             });
           }
           resolve({
